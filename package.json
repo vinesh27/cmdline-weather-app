@@ -5,7 +5,7 @@
   },
   "name": "cmdline-weather-app",
   "description": "A weather app coded using JS which can be used from cmd line (npx weathercli)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
