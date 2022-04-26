@@ -30,6 +30,7 @@
   "homepage": "https://github.com/vinesh27/cmdline-weather-app#readme",
   "dependencies": {
     "axios": "^0.27.1",
+    "clear": "^0.1.0",
     "inquirer": "^8.2.2"
   }
 }

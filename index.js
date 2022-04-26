@@ -1,7 +1,7 @@
 const axios = require('axios');
 const inquirer = require('inquirer');
 const API_URL = 'https://micro-weather.vercel.app';
-
+require('clear')();
 const celciusToFahrenheit = (celcius) => Math.round((9 / 5) * celcius + 32);
 
 function getWeather() {
