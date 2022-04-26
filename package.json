@@ -1,0 +1,29 @@
+{
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "name": "cmdline-weather-app",
+  "description": "A weather app coded using JS which can be used from cmd line (npx weathercli)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinesh27/cmdline-weather-app.git"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "tsc",
+    "js",
+    "weather"
+  ],
+  "author": "vinesh27 <https://github.com/vinesh27>",
+  "license": "GNU GPLv3",
+  "bugs": {
+    "url": "https://github.com/vinesh27/cmdline-weather-app/issues"
+  },
+  "homepage": "https://github.com/vinesh27/cmdline-weather-app#readme"
+}
