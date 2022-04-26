@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@types/node": "^17.0.27",
     "typescript": "^4.6.3"
   },
   "name": "cmdline-weather-app",
@@ -9,14 +10,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "weathercli": "index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vinesh27/cmdline-weather-app.git"
   },
   "keywords": [
     "javascript",
-    "typescript",
-    "tsc",
     "js",
     "weather"
   ],
@@ -25,5 +27,9 @@
   "bugs": {
     "url": "https://github.com/vinesh27/cmdline-weather-app/issues"
   },
-  "homepage": "https://github.com/vinesh27/cmdline-weather-app#readme"
+  "homepage": "https://github.com/vinesh27/cmdline-weather-app#readme",
+  "dependencies": {
+    "axios": "^0.27.1",
+    "inquirer": "^8.2.2"
+  }
 }
